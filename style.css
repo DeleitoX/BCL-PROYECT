@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body{
+    display: flex;
+    margin: 0;
+    background-color: rgb(213, 228, 228);
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(/imagenes/manuimagen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 160px;
+    width: 100vw;
+    color: white;
+}
+
+.info{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 14px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.info img{
+    margin-right: 10px;
+}
+
+.animated-button{
+    margin-right: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 36px;
+    border: 4px solid;
+    border-color: transparent;
+    background-color: #058EA7;
+    font-size: 16px;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #ffffff;
+    box-shadow: 0 0 0 2px #320C90;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+  
+.animated-button svg{
+    position: absolute;
+    width: 24px;
+    fill: #1f387e;
+    z-index: 9;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+  
+.animated-button .arr-1{
+    right: 16px;
+}
+  
+.animated-button .arr-2{
+    left: -25%;
+}
+  
+.animated-button .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #320C90;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+  
+.animated-button .text{
+    position: relative;
+    z-index: 1;
+    transform: translateX(-12px);
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+  
+.animated-button:hover{
+    box-shadow: 0 0 0 12px transparent;
+    color: #ffffff;
+    border-radius: 12px;
+}
+  
+.animated-button:hover .arr-1{
+    right: -25%;
+}
+  
+.animated-button:hover .arr-2{
+    left: 16px;
+}
+  
+.animated-button:hover .text{
+    transform: translateX(12px);
+}
+  
+.animated-button:hover svg{
+    fill: #058EA7;
+}
+  
+.animated-button:active{
+    scale: 0.95;
+    box-shadow: 0 0 0 4px greenyellow;
+}
+  
+.animated-button:hover .circle{
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+}
+
+.reg{
+    height: 65px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #320C90;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+  
+.reg:hover{
+    background: #058EA7;
+}
+  
+.reg > svg{
+    width: 34px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.reg:hover svg{
+    transform: translateX(5px);
+}
+  
+.reg:active{
+    transform: scale(0.95);
+}
+
+img{
+    height: 130px;
+    width: 130px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Comfortaa", sans-serif;
+}
+
+button{
+    margin-left: 30px;
+}
+
+.noticias{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 22px;
+    margin-left: 80px;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.noticias::after{
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition: width 0.3s ease;
+}
+
+.noticias:hover::after{
+    width: 100%;
+}
+
+.noticias:active{
+    transform: scale(0.9);
+    transition: all 0.005s;
+}
+
+.preguntas{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.preguntas::after{
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition: width 0.3s ease;
+}
+
+.preguntas:hover::after{
+    width: 100%;
+}
+
+.preguntas:active{
+    transform: scale(0.9);
+    transition: all 0.005s;
+}
+
+.acerca{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 22px;
+    margin-right: 25px;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.acerca::after{
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition: width 0.3s ease;
+}
+
+.acerca:hover::after{
+    width: 100%;
+}
+
+.acerca:active{
+    transform: scale(0.9);
+    transition: all 0.005s;
+}
+
+
+.h3_1{
+    margin-left: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+

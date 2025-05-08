@@ -320,7 +320,7 @@ a{
 
 .redes:hover{
     transition: all 0.3s;
-    box-shadow: 10px 10px 10px #005300;
+    box-shadow: 10px 10px 10px #ffffff;
 }
 
 .youtube{
@@ -392,6 +392,58 @@ a{
     transition: all 0.2s;
 }
 
+.contenido-principal{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main{
+    margin-top: 100px;
+    margin-left: 3%;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+}
+
 .sponsor{
-    
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    background-color: #005300;
+    border-radius: 25px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.balon{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: #465546;
+}
+
+.pelota{
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+    transition: all 0.3s;
+}
+
+.pelota:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.balon-oficial{
+    position: absolute;
+    margin-top: 30px;
+}
+
+.luengo{
+    border-radius: 25px;
 }

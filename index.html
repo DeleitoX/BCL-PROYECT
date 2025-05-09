@@ -121,9 +121,14 @@
     <div id="mapa-estadio" class="mapa">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2313.263924474995!2d-7.001428760266479!3d38.856692705019086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd16e0efe04023b1%3A0xfa7b83e3380e119c!2sComplejo%20Alcantara!5e1!3m2!1ses!2ses!4v1746741519963!5m2!1ses!2ses" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
     </div>
+    <div class="letrero-equipos">
+        <h1 class="equipos-titulo">
+            EQUIPOS
+        </h1>
+    </div>
     <div class="equipos">
 
-        <input type="radio" name="carrusel" id="c1">
+        <input type="radio" name="carrusel" id="c1" checked>
         <input type="radio" name="carrusel" id="c2">
         <input type="radio" name="carrusel" id="c3">
         <input type="radio" name="carrusel" id="c4">
@@ -136,19 +141,18 @@
 
         <div class="cards">
 
-            <label for="c1" id="carrusel1">
+            <label for="c1" id="carrusel1" class="astro">
                 <div class="card">
                     <div class="imagenes">
                         <img src="./imagenes/astropacense.png" alt="Astropacense FC"> 
-                        <div class="dots">
+                        <div class="puntos">
                             <div></div>
                             <div></div>
                             <div></div>
                         </div>
                     </div>
                     <div class="infos">
-                        <span class="name">AstropacenseFC</span>
-                        <a href="/details" class="btn-details">detalles</a>
+                        <span class="name">Astropacense FC</span>
                     </div>
                 </div>
             </label>
@@ -157,15 +161,14 @@
                 <div class="card">
                     <div class="imagenes">
                         <img src="./imagenes/atletico-fimosis.png" alt="Atletico Fimosis"> 
-                        <div class="dots">
+                        <div class="puntos">
                             <div></div>
                             <div></div>
                             <div></div>
                         </div>
                     </div>
                     <div class="infos">
-                        <span class="name">AtleticoFimosis</span>
-                        <a href="/details" class="btn-details">detalles</a>
+                        <span class="name">Atletico Fimosis</span>
                     </div>
                 </div>
             </label>
@@ -174,15 +177,14 @@
                 <div class="card">
                     <div class="imagenes">
                         <img src="./imagenes/betis-hooligans.png" alt="Betis Hooligans"> 
-                        <div class="dots">
+                        <div class="puntos">
                             <div></div>
                             <div></div>
                             <div></div>
                         </div>
                     </div>
                     <div class="infos">
-                        <span class="name">BetisHooligans</span>
-                        <a href="/details" class="btn-details">detalles</a>
+                        <span class="name">Betis Hooligans</span>
                     </div>
                 </div>
             </label>
@@ -191,7 +193,7 @@
                 <div class="card">
                     <div class="imagenes">
                         <img src="./imagenes/gormitis-fc.png" alt="Gormitis FC"> 
-                        <div class="dots">
+                        <div class="puntos">
                             <div></div>
                             <div></div>
                             <div></div>
@@ -199,7 +201,6 @@
                     </div>
                     <div class="infos">
                         <span class="name">Gormitis FC</span>
-                        <a href="/details" class="btn-details">detalles</a>
                     </div>
                 </div>
             </label>
@@ -208,7 +209,7 @@
                 <div class="card">
                     <div class="imagenes">
                         <img src="./imagenes/king-donuts.png" alt="King Donuts"> 
-                        <div class="dots">
+                        <div class="puntos">
                             <div></div>
                             <div></div>
                             <div></div>
@@ -216,92 +217,6 @@
                     </div>
                     <div class="infos">
                         <span class="name">King Donuts</span>
-                        <a href="/details" class="btn-details">detalles</a>
-                    </div>
-                </div>
-            </label>
-
-            <label for="c6" id="carrusel6">
-                <div class="card">
-                    <div class="imagenes">
-                        <img src="./imagenes/oreja-fc.png" alt="Oreja FC"> 
-                        <div class="dots">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="infos">
-                        <span class="name">Oreja FC</span>
-                        <a href="/details" class="btn-details">detalles</a>
-                    </div>
-                </div>
-            </label>
-
-            <label for="c7" id="carrusel7">
-                <div class="card">
-                    <div class="imagenes">
-                        <img src="./imagenes/racing-ludopatas.png" alt="Racing Ludopatas"> 
-                        <div class="dots">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="infos">
-                        <span class="name">Racing Ludópatas</span>
-                        <a href="/details" class="btn-details">detalles</a>
-                    </div>
-                </div>
-            </label>
-
-            <label for="c8" id="carrusel8">
-                <div class="card">
-                    <div class="imagenes">
-                        <img src="./imagenes/samaritanos-del-amor.png" alt="Samaritanos Del Amor"> 
-                        <div class="dots">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="infos">
-                        <span class="name">Samaritanos Del Amor</span>
-                        <a href="/details" class="btn-details">detalles</a>
-                    </div>
-                </div>
-            </label>
-
-            <label for="c9" id="carrusel9">
-                <div class="card">
-                    <div class="imagenes">
-                        <img src="./imagenes/shalke-temeto.png" alt="Shalke Temeto"> 
-                        <div class="dots">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="infos">
-                        <span class="name">Shalke Temeto</span>
-                        <a href="/details" class="btn-details">detalles</a>
-                    </div>
-                </div>
-            </label>
-
-            <label for="c10" id="carrusel10">
-                <div class="card">
-                    <div class="imagenes">
-                        <img src="./imagenes/zorragoza.png" alt="Zorragoza"> 
-                        <div class="dots">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="infos">
-                        <span class="name">Zorragoza</span>
-                        <a href="/details" class="btn-details">detalles</a>
                     </div>
                 </div>
             </label>

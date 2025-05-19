@@ -44,38 +44,42 @@
             </a>
         </div>
         <div class="log">
-            <button class="animated-button">
-                <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
-                  <path
-                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-                  ></path>
-                </svg>
-                <span class="text">INICIAR SESION</span>
-                <span class="circle"></span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
-                  <path
-                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-                  ></path>
-                </svg>
-              </button>
+            <a href="./login.html">
+                <button class="animated-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
+                    <path
+                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                    ></path>
+                    </svg>
+                    <span class="text">INICIAR SESION</span>
+                    <span class="circle"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
+                    <path
+                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                    ></path>
+                    </svg>
+                </button>
+              </a>
         </div>
         <div class="register">
-            <button class="reg">
-                <span>REGISTRARSE</span>
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 74 74"
-                    height="34"
-                    width="34"
-                >
-                <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
-                <path
-                    fill="black"
-                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
-                ></path>
-                </svg>
-            </button>
+            <a href="./register.html">
+                <button class="reg">
+                    <span>REGISTRARSE</span>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 74 74"
+                        height="34"
+                        width="34"
+                    >
+                    <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+                    <path
+                        fill="black"
+                        d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                    ></path>
+                    </svg>
+                </button>
+            </a>
         </div>
     </header>
     <div class="contenido-principal">
@@ -104,7 +108,7 @@
             </div>
             <div class="balon">
                 <p class="balon-oficial">BALÓN OFICIAL</p>
-                <img src="./imagenes/Balon.png" class="pelota">
+                <img src="./imagenes/balon.png" class="pelota">
             </div>
         </main>
         <aside class="cartel">
@@ -116,9 +120,9 @@
         </aside>
     </div>
     <div class="estadio">
-        <h1 class="titulo-estadio">UBICACIÓN ESTADIO</h1>
+        <h1 id="mapa-estadio" class="titulo-estadio">UBICACIÓN ESTADIO</h1>
     </div>
-    <div id="mapa-estadio" class="mapa">
+    <div  class="mapa">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2313.263924474995!2d-7.001428760266479!3d38.856692705019086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd16e0efe04023b1%3A0xfa7b83e3380e119c!2sComplejo%20Alcantara!5e1!3m2!1ses!2ses!4v1746741519963!5m2!1ses!2ses" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
     </div>
     <div class="letrero-equipos">
@@ -128,16 +132,12 @@
     </div>
     <div class="equipos">
 
-        <input type="radio" name="carrusel" id="c1" checked>
-        <input type="radio" name="carrusel" id="c2">
-        <input type="radio" name="carrusel" id="c3">
-        <input type="radio" name="carrusel" id="c4">
-        <input type="radio" name="carrusel" id="c5">
-        <input type="radio" name="carrusel" id="c6">
-        <input type="radio" name="carrusel" id="c7">
-        <input type="radio" name="carrusel" id="c8">
-        <input type="radio" name="carrusel" id="c9">
-        <input type="radio" name="carrusel" id="c10">
+        <input type="radio" name="carrusel" id="c1" checked class="radio">
+        <input type="radio" name="carrusel" id="c2" class="radio">
+        <input type="radio" name="carrusel" id="c3" class="radio">
+        <input type="radio" name="carrusel" id="c4" class="radio">
+        <input type="radio" name="carrusel" id="c5" class="radio">
+        
 
         <div class="cards">
 

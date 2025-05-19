@@ -8,8 +8,7 @@ body{
     display: inline;
     overflow-x: hidden;
     margin: 0;
-    background-color: rgb(1, 36, 5);
-    
+    background-color: #485e5e;
 }
 
 .cabecera{
@@ -493,7 +492,7 @@ iframe{
     box-shadow: 0px 0px 30px #02ff02;
 }
 
-input{
+.radio{
     display: none;
 }
 
@@ -554,7 +553,7 @@ input{
 .cards .card{
     position: relative;
     height: 100%;
-    background-color: #0b3b05;
+    background-color: #a7a1a1;
     border-radius: 10px;
     padding: 30px 35px;
 }
@@ -683,3 +682,4 @@ input{
     --current-color1: #eceaed;
     --currente-color2: #404457;
 }
+

@@ -683,3 +683,50 @@ iframe{
     --currente-color2: #404457;
 }
 
+.resultados{
+    display: flex;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulo-resultados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 200px;
+    background-image: url(./imagenes/manuimagen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.cabecero-resultados{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 40px;
+}
+
+table{
+    color: #000;
+    font-family: "Comfortaa", sans-serif;
+    empty-cells: hide;
+}
+
+table, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+tr{
+    font-size: 32px;
+}
+
+td{
+    font-size: 24px;
+}
